@@ -112,6 +112,7 @@ namespace BringChromeToFront
                         SetForegroundWindow(handle);
                         if (Process.GetProcessById(proc.Id).MainWindowTitle.ToLower().Contains(title.ToLower()))
                         {
+                            ShowWindow(proc.MainWindowHandle, SW_RESTORE);
                             Console.WriteLine("Found tab <{0}> early - no need to examine other procs", title);
                             return;
                         }
