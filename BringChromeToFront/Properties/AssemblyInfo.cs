@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("BringChromeToFront")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Brings the Chrome browser to the foreground, and tries to activate the requested Tab")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Engage")]
 [assembly: AssemblyProduct("BringChromeToFront")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
